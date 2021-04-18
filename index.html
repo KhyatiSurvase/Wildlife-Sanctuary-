@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+<h1>National Wildlife Park's in India Information</h1>
+<p>National parks in India are IUCN category II protected areas. India's first national park was established in 1936 as Hailey National Park, now known as Jim Corbett National Park, Uttarakhand. By 1970, India only had five national parks. In 1972, India enacted the Wildlife Protection Act and Project Tiger in 1973 to safeguard the habitats of conservation reliant species.
+
+  Further federal legislation strengthening protection for wildlife was introduced in the 1980s. As of May 2020, there were 105 national parks encompassing an area of 40,501.13 km2 (15,637.57 sq mi), under protected areas of India category II comprising 1.23% of India's total surface area.
+  According to the Indian Ministry of Environment & Forests, a national park is "[a]n area, whether within a sanctuary or not, [that] can be notified by the state government to be constituted as a National Park, by reason of its ecological, faunal, floral, geomorphological, or zoological association or importance, needed to for the purpose of protecting & propagating or
+ developing wildlife there in or its environment. No human activity is permitted inside the national park except for the ones permitted by the Chief Wildlife Warden of the state under the conditions given in CHAPTER IV, WPA 1972."
+ There are 553 existing wildlife sanctuaries in India covering an area of  119776.00 km2, which is 3.64 % of the geographical area of the country (National Wildlife Database, December, 2019).
+</p>
+<div class="column">
+  <img src="Images/national park.jpg">
+  <img src="Images/natiaonal park 2.jpg">
+  
+</div>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'North')">North</button>
+  <button class="tablinks" onclick="openCity(event, 'East')">East</button>
+  <button class="tablinks" onclick="openCity(event, 'West')">West</button>
+  <button class="tablinks" onclick="openCity(event, 'South')">South</button>
+</div>
+
+<!-- Tab content -->
+<div id="North" class="tabcontent">
+  <h3>North</h3>
+  <p>North NATIONAL.</p>
+  
+<div>
+<a href="Northern.html">Northern National Parks</a>
+</div>
+</div>
+
+<div id="East" class="tabcontent">
+  <h3>East</h3>
+  <p>East NATIONAL.</p>
+<div>
+<a href="Eastern.html">Eastern National Parks</a>
+</div>
+</div>
+
+<div id="West" class="tabcontent">
+  <h3>West</h3>
+  <p>West NATIONAL.</p>
+<div>
+<a href="Western.html">Western National Parks</a>
+</div>
+</div>
+
+<div id="South" class="tabcontent">
+  <h3>South</h3>
+  <p>South NATIONAL.
+<!-- Insert a Text input control on a screen. ...
+Type a new value in the text box.
+Insert a Button control on the screen.
+Set the button's OnSelect property to Reset( TextInput1 ).
+Select the button. ...
+The contents of the text box will return to the value of the Default property.
+Insert a Text input control on a screen. ...
+Type a new value in the text box.
+Insert a Button control on the screen.
+Set the button's OnSelect property to Reset( TextInput1 ).
+Select the button. ...
+The contents of the text box will return to the value of the Default property.
+Insert a Text input control on a screen. ...
+Type a new value in the text box.
+Insert a Button control on the screen.
+Set the button's OnSelect property to Reset( TextInput1 ).
+Select the button. ...
+The contents of the text box will return to the value of the Default property.
+Insert a Text input control on a screen. ...
+Type a new value in the text box.
+Insert a Button control on the screen.
+Set the button's OnSelect property to Reset( TextInput1 ).
+Select the button. ...
+The contents of the text box will return to the value of the Default property.
+Insert a Text input control on a screen. ...
+Type a new value in the text box.
+Insert a Button control on the screen.
+Set the button's OnSelect property to Reset( TextInput1 ).
+Select the button. ...
+The contents of the text box will return to the value of the Default property.
+Insert a Text input control on a screen. ...
+Type a new value in the text box.
+Insert a Button control on the screen.
+Set the button's OnSelect property to Reset( TextInput1 ).
+Select the button. ...
+The contents of the text box will return to the value of the Default property. -->
+</p>
+<div>
+<a href="Southern.html">Southern National Parks</a>
+</div>
+</div>
+
+</body>
+</html>
+
+<Script>
+
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+ 	
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</Script>

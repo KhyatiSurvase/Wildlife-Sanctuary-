@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+  
+<body>
+<h1>NATIONAL WILDLIFE PARKS - NORTHERN INDIA</h1>
+<p>If a wild experience in nature's lap is what you seek, national parks in North India are precisely what you need. These heavily forested national parks in India provide a comfortable habitat to scores of animal species and birds. Northern India is flanked by the Himalayas on one side and the Thar desert and the Aravalli hills on the other. The rich and fertile alluvial soils support a vast variety of vegetation and plant life.
+ Among the most sought after nature and wildlife travel destinations in India are two celebrated national parks of North India, namely Corbett National Park and Ranthambore National Park.
+There are several parks in northen India but the most well known are Dachigam national park, Jim Corbett national park, Rajaji national park,Nanda Devi national park,
+Dudhwa national park, Binsar Wildlife park, Sariska Tiger park etc. </p>
+
+<center>
+
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<!-- <button onclick="four()">4</button> -->
+
+<div class="row">
+  <div class="column">
+    <img src="Images/dachigam.jpg">
+    <img src="Images/Jim-Corbett.png">
+    <img src="Images/nanda devi 1.jpg">
+    <img src="Images/nanda devi 2.jpg">
+    <img src="Images/dudhwa north.png">
+    <img src="Images/binsar noorth 1.jpg">
+    <img src="Images/binsar north.jpg">
+  </div>
+  <!-- <div class="column">
+    <img src="underwater.jpg">
+    <img src="ocean.jpg">
+    <img src="wedding.jpg">
+    <img src="mountainskies.jpg">
+    <img src="rocks.jpg">
+    <img src="underwater.jpg">
+  </div>
+  <div class="column">
+    <img src="wedding.jpg">
+    <img src="rocks.jpg">
+    <img src="falls2.jpg">
+    <img src="paris.jpg">
+    <img src="nature.jpg">
+    <img src="mist.jpg">
+    <img src="paris.jpg">
+  </div>
+  <div class="column">
+    <img src="underwater.jpg">
+    <img src="ocean.jpg">
+    <img src="wedding.jpg">
+    <img src="mountainskies.jpg">
+    <img src="rocks.jpg">
+    <img src="underwater.jpg">
+  </div> -->
+</div>
+
+<div class="row">
+  <div class="columnText">
+	<h2>JIM CORBETT NATIONAL PARK</h2>
+	<div>
+	<p>Jim Corbett National Park is the oldest national park in India and was established in 1936 as Hailey National Parko protect the endangered Bengal tiger. It is located in Nainital district and Pauri Garhwal district of Uttarakhand and was named after hunter and naturalist Jim Corbett. 
+    The park was the first to come under the Project Tiger initiative. An ecotourism destinationthe park contains 488 different species of plants and a diverse variety of fauna.
+  The park is a home to different creatures like the spottted deer, sambar deer, elephant, tawny fish owl, golden jackal, Pallas fish eagle etc. </p> 
+	</div>
+  </div>
+<div class="columnText">
+	<h2>RAJAJI NATIONAL PARK</h2>
+<div>
+	<p>Rajaji National Park is an Indian national park and tiger reserve that encompasses the Shivaliks, near the foothills of the Himalayas. It is spread over 820 km and three districts of Uttarakhand: Haridwar, Dehradun and Pauri Garhwal. In 1983, three wildlife sanctuaries in the area namely, 
+    Chilla, Motichur and Rajaji sanctuaries were merged into one.Rajaji National Park has been named after C. Rajagopalachari (Rajaji), a prominent leader of the Freedom Struggle, the second and last Governor-General of independent India. This park is a home to animals likeAsian elephant
+    Bengal tiger, Indian Leopard, Jungle cat, Goral, Indian hare, Sloth bear, Himalayan black bear, King cobra, Jackal, Barking deer, Sambhar, Wild boar,Rhesus macaque,Indian langur,Indian porcupine,Monitor lizard,Python  </p>
+	</div>
+  </div>
+<div class="columnText">
+	<h2>NANDA DEVI NATIONAL PARK</h2>
+<div>
+	<p>The Nanda Devi National Park or Nanda Devi Biosphere Reserve, established in 1982 is a national park situated around the peak of Nanda Devi (7816 m) in the state of Uttarakhand in northern India. The entire park lies at an elevation of more than 3,500 m (11,500 ft) above mean sea level.
+The National Park was inscribed a World Heritage Site by UNESCO in 1988. It was later expanded and renamed as Nanda Devi and Valley of Flowers National Parks in 2005.
+The best time to visit Nanda Devi National Park is from May to OctoberCommon larger mammals are Himalayan musk deer, mainland serow and Himalayan tahr. Goral are not found within, but in the vicinity of the park. Carnivores are represented by snow leopard, Himalayan black bear and perhaps also brown bear.
+Langurs are found within the park, whereas rhesus macaque are known to occur in the neighboring areas of the park. In a scientific expedition in 1993, a total of 114 bird species was recognized.</p>
+	</div>
+  </div>
+</div>
+
+
+
+    </center>
+</body>
+  
+</html>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a "loop" variable
+var i;
+
+// Full-width images
+function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script>

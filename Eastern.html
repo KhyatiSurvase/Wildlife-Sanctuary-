@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+  
+<body>
+<h1>NATIONAL WILDLIFE PARKS - EASTERN INDIA</h1>
+<p>Home to some of the most rare and endangered species of animals in the world, National Parks in East India are a joy to the wildlife enthusiast. Owing to a rich and diverse plant life and vegetation, these national parks also offer a wonderful experience to nature lovers.
+Two of the most visited national parks of East India are the Sunderbans National Park and the Kaziranga National Park, both of which are inscribed as a World Heritage Site by UNESCO. Overflowing with tourists every years, these parks are a great tourist attraction.
+There are several Wildlife parks in eastern India, but the most wel knoown ones are Kaziranga Naional Park-Assam, Daying-Ering Wildlife sanctuary-Arunachal Pradesh, Dibru Saikhowa National Park-Assam, Sundarbans-West Bengal, Jaldapara Wildlife Sanctuary-West Bengal, 
+Balpakaram National Park etc. </p>
+
+<center>
+
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<!-- <button onclick="four()">4</button> -->
+
+<div class="row">
+  <div class="column">
+    <img src="Images/kaziranga.jpg">
+    <img src="Images/daying sanctuary.jpg">
+    <img src="Images/daibru national park.jpg">
+    <img src="Images/sunderban.jpg">
+    <img src="Images/Jaldapara Wildlife Sanctuary.jpg">
+    <img src="Images/jaladarpara.jpg">
+    <img src="Images/chap.jpg">
+  </div>
+  <!-- <div class="column">
+    <img src="Images/kaziranga.jpg">
+    <img src="Images/daying sanctuary.jpg">
+    <img src="Images/daibru national park.jpg">
+    <img src="Images/sunderban.jpg">
+    <img src="Images/Jaldapara Wildlife Sanctuary.jpg">
+    <img src="Images/jaladarpara.jpg">
+    <img src="Images/chap.jpg">
+  </div> -->
+  <!-- <div class="column">
+    <img src="wedding.jpg">
+    <img src="rocks.jpg">
+    <img src="falls2.jpg">
+    <img src="paris.jpg">
+    <img src="nature.jpg">
+    <img src="mist.jpg">
+    <img src="paris.jpg">
+  </div>
+  <div class="column">
+    <img src="underwater.jpg">
+    <img src="ocean.jpg">
+    <img src="wedding.jpg">
+    <img src="mountainskies.jpg">
+    <img src="rocks.jpg">
+    <img src="underwater.jpg">
+  </div> -->
+</div>
+
+<div class="row">
+  <div class="columnText">
+	<h2>KAZIRANGA NATIONAL PARK</h2>
+	<div>
+	<p>Kaziranga national park is a national park located in Assam,India.It is home to the highest density of tigers
+    and is also recognized as an Important bird area. This park is home to animals like tigers, wild water buffalo's, 
+    wild boars, barasingha deer, golden langur, indian rhinoceros and many more magnificent creatures.Tourism in Kaziranga
+    include activities like observing the wildlife,including birding. Guided tours by elephant or Jeep are available. Hiking is 
+    prohibited in the park to avoid potential animal-human conflicts.The park remains closed for visitors from !st may to october end 
+    due to monsoon rains.The best time to visit the park is from 1st november to 30th april.    
+  </p>
+	</div>
+  </div>
+<div class="columnText">
+	<h2>DIBRU-SAIKHOOWA NATIONAL PARK</h2>
+<div>
+	<p>Dibru-Saikhowa national park is a national park located is Assam,India.The park is bounded by the Brahmaputra and Lohit Rivers in <thead>
+    the north and Dibru river in the south. Originally the park was created to help conserve the habitat of the rare white-winged wood duck, 
+    the park us also home to other rare creatures such as water buffalo,black breasted parrotbill, tiger and capped langur. The other fauna that 
+    live there are the jungle cat, feral horses, small Indian civet, Gangatic dolphin,wild boar and reptiles like the monitor lizard, tutles and snakes are also found there.
+    Best season to visit the park is from November to April.
+  </thead> 
+  </p>
+	</div>
+  </div>
+<div class="columnText">
+	<h2>DAYING-ERING WILDLIFE SANCTUARY</h2>
+<div>
+	<p>Daying-Ering Wildlife Sanctuary is a national park loocated in Arunachal Pradesh, India. It is spread over a cluster of river islands. A cruise through the Siang river
+    is the only way to reach the sanctuary. One can reach there by cruising the Siang river. The unique ecosystem of this sanctuary has made it a natural habitat for different species of birds 
+    including migratory birds like cranes, wild ducks, storks, waterfowls, etc. which come from Siberia and Mongolia from September to February every year.
+    The forest islands are home to hog deer, hispid hare and wild buffalo, sambars,elephants and other rainforest macro and micro fauna.
+    The sanctuary is a veritable delight to amateur and professional ornithologits.
+
+  </p>
+	</div>
+  </div>
+</div>
+
+
+
+    </center>
+</body>
+  
+</html>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a "loop" variable
+var i;
+
+// Full-width images
+function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script>
